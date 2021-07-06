@@ -1,0 +1,22 @@
+.errorpage {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+@media only screen {
+  .errorpage {
+    margin-top: 17.5%;
+
+    transition: ease 1s;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .errorpage {
+    margin-top: 50%;
+
+    transition: ease 1s;
+  }
+}
