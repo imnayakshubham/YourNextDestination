@@ -9,6 +9,9 @@ import Home from "./Home/Home";
 import PrivateRoute from "./PrivateRoute/PrivateRoute";
 import LandingPage from "./LandingPage/LandingPage";
 import Footer from "./Footer/Footer";
+import ErrorPage from "../components/PageNotFound/ErrorPage";
+
+
 
 function App() {
   return (
@@ -24,6 +27,8 @@ function App() {
 
             <Switch>
               <PrivateRoute exact path="/home" component={Home} />
+              <Route component={ErrorPage} />
+
             </Switch>
           </Router>
         </AuthProvider>
