@@ -1,0 +1,80 @@
+.signin__container {
+  flex: 0.5;
+  margin: 0 20px;
+}
+#postform > input {
+  width: 365px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  padding: 5px;
+}
+.signin__container {
+  display: flex;
+  justify-content: center;
+}
+.feed__btncontainer {
+  display: flex;
+  right: 0;
+  justify-content: flex-end;
+}
+.feed__btncontainer > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 1rem;
+  /* background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%); */
+  width: 365px;
+  height: 50px;
+}
+.signin__btnsubmitcontainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 0.5rem;
+}
+.signin__btnsubmitcontainer > button {
+  width: 365px;
+  height: 50px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+  color: white;
+  cursor: pointer;
+  /* width: 100%; */
+}
+.signin__btnsubmitcontainer > button:hover {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.login > p {
+  color: #000;
+  margin-top: 0.5rem;
+}
+.container {
+  margin: 12.5%;
+}
+.login > a {
+  margin-top: 5px;
+}
+
+@media only screen and (max-width: 500px) {
+  .signin__container {
+    margin-top: 50%;
+
+    transition: ease 1s;
+  }
+}
+
+/* 375 */

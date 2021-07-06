@@ -1,0 +1,74 @@
+.login__container {
+  flex: 0.5;
+  margin: 0 20px;
+}
+#postform > input {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+  padding: 5px;
+}
+.login__container {
+  display: flex;
+  justify-content: center;
+}
+.login__btncontainer {
+  display: flex;
+  right: 0;
+  justify-content: flex-end;
+}
+.login__btncontainer > button {
+  border: none;
+  background: none;
+  cursor: pointer;
+  margin: 1rem;
+}
+.login__btnsubmitcontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.signup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+.signup > p {
+  color: #000;
+}
+.container {
+  margin: 12.5%;
+}
+.userEmail,
+.userPassword {
+  height: 50px;
+  width: 250px;
+}
+
+.login__btnsubmitcontainer > button {
+  width: 365px;
+  height: 50px;
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: linear-gradient(to left, #33ccff 0%, #ff99cc 100%);
+  color: white;
+  cursor: pointer;
+  /* width: 100%; */
+}
+.login__btnsubmitcontainer > button:hover {
+  padding: 0.5rem;
+  border-radius: 5px;
+  background: linear-gradient(to right, #33ccff 0%, #ff99cc 100%);
+  color: white;
+  cursor: pointer;
+  width: 100%;
+}
+@media only screen and (max-width: 500px) {
+  .login__container {
+    margin-top: 50%;
+
+    transition: ease 1s;
+  }
+}

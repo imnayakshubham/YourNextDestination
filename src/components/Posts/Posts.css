@@ -1,0 +1,49 @@
+.post {
+  background-color: rgb(248, 248, 248);
+  margin-left: 0.25rem;
+  margin-right: 0.25rem;
+  margin-top: 0.2rem;
+  border-radius: 10px;
+}
+.posts {
+  margin-top: 1rem;
+  margin: 0.5rem;
+}
+
+.post__container__username > h2 {
+  border-bottom: 0.5px solid grey;
+  padding: 0.5rem;
+}
+.post__container__postdetails {
+  overflow-wrap: anywhere;
+  margin-left: 0.5rem;
+}
+
+.post__container__postdetails > p {
+  margin-bottom: 0.5rem;
+}
+
+.postfeedback,
+.dislikes,
+.likes {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.postfeedback {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-top: 0.5px solid grey;
+  margin-bottom: 1rem;
+}
+
+.edit,
+.delete,
+.dislike,
+.like {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-right: 1.5rem;
+}

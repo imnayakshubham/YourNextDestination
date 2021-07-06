@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  /* margin-left: 2rem;
+  margin-right: 2rem; */
+  padding: 1rem;
+  /* position: sticky;
+  top: 0; */
+}
+.header__left {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  color: #000;
+}
