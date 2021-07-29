@@ -1,1 +1,1 @@
-### Deployed/Live at https://imnayakshubham.github.io/yournextdestination
+### Deployed/Live at https://ynd.netlify.app/
